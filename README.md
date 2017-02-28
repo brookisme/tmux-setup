@@ -4,7 +4,7 @@
 pushd ~/
 git clone https://github.com/brookisme/tmux-setup.git
 mv tmux-setup/tmux.conf .tmux.conf
-rm tmux-setup/
+rm -rf tmux-setup/
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 popd
 ```
