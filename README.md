@@ -39,7 +39,7 @@ prefix + shift + l   resize current pane to the right
 #Splitting panes
 prefix + |           split current pane horizontally
 prefix + -           split current pane vertically
-Newly created pane always has the same path as the original pane.
+
 
 Swapping windows
 prefix + <           moves current window one position to the left
