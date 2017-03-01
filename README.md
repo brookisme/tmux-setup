@@ -15,5 +15,5 @@ popd
 # start session
 tmux
 # install plugins
-C-a P (shift p)
+C-a I (shift i)
 ```
