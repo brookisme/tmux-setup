@@ -2,6 +2,7 @@
 ### setup
 ```bash
 pushd ~/
+rm -rf .tmux*
 git clone https://github.com/brookisme/tmux-setup.git
 mv tmux-setup/tmux.conf .tmux.conf
 rm -rf tmux-setup/
