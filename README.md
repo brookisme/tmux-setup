@@ -45,3 +45,8 @@ Swapping windows
 prefix + <           moves current window one position to the left
 prefix + >           moves current window one position to the right
 ```
+
+#### https://github.com/tmux-plugins/tmux-yank
+```bash
+prefix + y           copies text from the command line to clipboard
+```
