@@ -17,3 +17,31 @@ tmux
 # install plugins
 C-a I (shift i)
 ```
+
+-------------
+### plugins
+
+#### https://github.com/tmux-plugins/tmux-logging
+```bash
+prefix + shift + p   toggles-log     
+```
+
+
+#### https://github.com/tmux-plugins/tmux-pain-control/
+```bash
+# Resizing panes
+prefix + shift + h   resize current pane to the left
+prefix + shift + j   resize current pane in the up direction
+prefix + shift + k   resize current pane in the down direction
+prefix + shift + l   resize current pane to the right
+
+
+#Splitting panes
+prefix + |           split current pane horizontally
+prefix + -           split current pane vertically
+Newly created pane always has the same path as the original pane.
+
+Swapping windows
+prefix + <           moves current window one position to the left
+prefix + >           moves current window one position to the right
+```
