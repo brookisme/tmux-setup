@@ -1,5 +1,6 @@
 
 ### setup
+
 ```bash
 pushd ~/
 rm -rf .tmux*
