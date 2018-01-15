@@ -21,7 +21,7 @@ C-a I (shift i)
 
 ### layouts
 
-Save your layout (see [dot-tmux-slash-layout-a](https://github.com/brookisme/tmux-setup/blob/master/) for an example) to `.tmux/layout_a`.  Then add
+Save your layout (see [dot-tmux-slash-layout-a](https://github.com/brookisme/tmux-setup/blob/master/dot-tmux-slash-layout-a) for an example) to `.tmux/layout_a`.  Then add
 ```bash
 bind S source-file ~/.tmux/layout_a
 ```
