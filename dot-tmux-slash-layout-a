@@ -1,0 +1,6 @@
+# first session
+splitw -v -p 35 
+selectp -t 1
+splitw -h -p 30
+selectp -t 2
+splitw -v -p 50 
