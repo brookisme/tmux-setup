@@ -16,7 +16,7 @@ popd
 # start session
 tmux
 # install plugins
-C-a I (shift i)
+C-q I (shift i)
 ```
 
 ### layouts
@@ -27,9 +27,9 @@ bind S source-file ~/.tmux/layout_a
 ```
 to your `.tmux.conf` file.
 
-Now, once inside the tmux session just type `ctrl-a Shift-S` and you will automatically see your new layout.  
+Now, once inside the tmux session just type `ctrl-q Shift-S` and you will automatically see your new layout.  
 
-Note you will have re-run your conf file: `C-a I (shift i)`.
+Note you will have re-run your conf file: `C-q I (shift i)`.
 
 -------------
 ### plugins
